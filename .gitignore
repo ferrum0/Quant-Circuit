@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+
+# demo output from main.py
+/circuit.png
+/probabilities.png
+/amplitudes.png
+
+# LaTeX build artifacts (source of truth is docs/documentation.tex)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.pdf
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
